@@ -1,0 +1,57 @@
+     [
+      {
+        "id": 1,
+        "image": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "job_post": "Software Engineer",
+        "company": "Google",
+        "job_location": "Remote",
+        "job_type": "Full time",
+        "location": "California"
+      },
+      {
+        "id": 2,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2000px-Netflix_2015_logo.svg.png",
+        "job_post": "Senior Data Analyst",
+        "company": "Netflix",
+        "job_location": "Onsite",
+        "job_type": "Full time",
+        "location": "Los Gatos, California"
+      },
+      {
+        "id": 3,
+        "image": "https://www.tesla.com/sites/default/files/images/tesla_logo_social.jpg",
+        "job_post": "Product Manager",
+        "company": "Tesla",
+        "job_location": "Remote",
+        "job_type": "Full time",
+        "location": "California"
+      },
+      {
+        "id": 4,
+        "image": "https://d2zfqfszt5cbf1.cloudfront.net/images/Airbnb_Logo_B%C3%A9lo.svg",
+        "job_post": "User Experience Designer",
+        "company": "Airbnb",
+        "job_location": "Onsite",
+        "job_type": "Full time",
+        "location": "San Francisco, California"
+      },
+      {
+        "id": 5,
+        "image": "https://www.amazon.com/gp/navigation/uedata/7121bae438d64a8188f83b60a28c9396/nav-imgs/logo-smile.svg",
+        "job_post": "Data Scientist",
+        "company": "Amazon",
+        "job_location": "Remote",
+        "job_type": "Full time",
+        "location": "Seattle, Washington"
+      },
+      {
+        "id": 6,
+        "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png",
+        "job_post": "Social Media Manager",
+        "company": "Twitter",
+        "job_location": "Onsite",
+        "job_type": "Full time",
+        "location": "San Francisco, California"
+      }
+    ]
+  

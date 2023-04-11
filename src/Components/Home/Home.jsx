@@ -1,10 +1,12 @@
 import React from "react";
+import Introduction from "./Introduction";
 
 const Home = () => {
   return (
-    <div>
-      <h1>hello World</h1>
-    </div>
+    <section className="">
+      <Introduction></Introduction>
+      <div className=""></div>
+    </section>
   );
 };
 

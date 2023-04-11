@@ -1,16 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "./../assets/Icons/Group 9969.png";
 
 const Footer = () => {
   return (
     <div className="bg-black min-h-[400px] flex flex-col justify-center p-3">
-      <div className="footer-border text-white mx-52 flex items-start justify-between md:flex-row flex-col">
+      <div className="footer-border text-white md:mx-52 mx-3 flex md:items-start items-center justify-between flex-wrap">
         <div className="w-[200px]">
           <h3 className="text-3xl font-semibold mb-4">workWithLevi</h3>
           <p>
             There are many variations of passages of Lorem Ipsum , but the
             majority have suffered alteration in some form.
           </p>
+          <img src={Logo} alt="" className="w-24 my-3" />
         </div>
 
         <ul className="gray-text space-y-3">
@@ -88,7 +90,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="text-gray-600 mx-52 flex justify-between pt-4">
+      <div className="text-gray-600 md:mx-52 mx-3 flex justify-between pt-4">
         <span>
           © {new Date().getFullYear()}, Built with
           {` `}

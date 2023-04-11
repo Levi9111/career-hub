@@ -5,13 +5,15 @@ import JobCategory from "./JobCategory";
 import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
-  const fakeData = useLoaderData();
-  // console.log(fakeData);
+  const { fakeData, fakeDescription } = useLoaderData();
   return (
     <section className="">
       <Introduction></Introduction>
       <JobCategory></JobCategory>
-      <FeatureJobs fakeData={fakeData}></FeatureJobs>
+      <FeatureJobs
+        fakeData={fakeData}
+        fakeDescription={fakeDescription}
+      ></FeatureJobs>
     </section>
   );
 };

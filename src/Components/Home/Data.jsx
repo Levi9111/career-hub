@@ -1,7 +1,7 @@
 import React from "react";
 import { BeakerIcon, MapPinIcon } from "@heroicons/react/24/solid";
 
-const Data = ({ data }) => {
+const Data = ({ data, handleViewDetails }) => {
   const {
     id,
     image,
@@ -30,7 +30,9 @@ const Data = ({ data }) => {
         <MapPinIcon className="h-4 w-4 mr-2 text-gray-400 flex items-center justify-center" />
         <p className="text-gray-400">{location}</p>
       </div>
-      <button className="btn">View Details</button>
+      <button onClick={handleViewDetails} className="btn">
+        View Details
+      </button>
     </div>
   );
 };

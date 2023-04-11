@@ -8,6 +8,10 @@ const FeatureJobs = ({ fakeData }) => {
     setState(!state);
   };
 
+  const handleViewDetails = () => {
+    console.log(`view details`);
+  };
+
   return (
     <div className="md:mx-52 mx:12 my-28 ">
       <h2 className="text-3xl font-bold text-center">Featured Jobs</h2>
@@ -20,7 +24,13 @@ const FeatureJobs = ({ fakeData }) => {
           ? fakeData.map((data) => <Data key={data.id} data={data}></Data>)
           : fakeData
               .slice(0, 4)
-              .map((data) => <Data key={data.id} data={data}></Data>)}
+              .map((data) => (
+                <Data
+                  key={data.id}
+                  data={data}
+                  handleViewDetails={handleViewDetails}
+                ></Data>
+              ))}
       </div>
 
       <div className="btn-container mt-7 flex justify-center">

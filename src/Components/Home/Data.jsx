@@ -12,9 +12,9 @@ const Data = ({ data }) => {
     job_location,
     location,
   } = data;
-  console.log(data);
+  // console.log(data);
   return (
-    <div className="border border-spacing-3 border-gray-200 rounded-sm p-8">
+    <div className="border border-spacing-3 border-gray-200 rounded-sm p-8 md:block grid place-content-center">
       <img src={image} alt="" className="w-[150px] h-[45px] mb-5" />
       <h2 className="text-2xl text-gray-700 mb-1">{job_post}</h2>
       <p className="text-gray-400 my-1">{company}</p>

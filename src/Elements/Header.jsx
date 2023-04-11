@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex">
-      <Link to=" ">workWithLevi</Link>
-      <div className="">
+    <div className="flex items-center justify-between h-20 mx-52">
+      <Link to=" " className="text-3xl text-gray-800 font-bold">
+        workWithLevi
+      </Link>
+
+      {/* header links */}
+      <div className="space-x-6 text-[#757575]">
         <Link to="/">Home</Link>
         <Link to="/statistics">Statistics</Link>
         <Link to="/appliedJobs">Applied Job</Link>
@@ -13,7 +17,9 @@ const Header = () => {
       </div>
 
       <button>
-        <Link>Start Applying</Link>
+        <Link to="#" className="btn">
+          Start Applying
+        </Link>
       </button>
     </div>
   );

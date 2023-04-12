@@ -4,12 +4,13 @@ import Data from "./Data";
 const FeatureJobs = ({ fakeData }) => {
   const [state, setState] = useState(false);
 
-  const handleJobs = () => {
-    setState(!state);
+  const handleViewDetails = (id) => {
+    const targetElement = fakeData.find((data) => data.id === id);
+    console.log(targetElement);
   };
 
-  const handleViewDetails = () => {
-    console.log(`view details`);
+  const handleJobs = () => {
+    setState(!state);
   };
 
   return (
@@ -34,9 +35,18 @@ const FeatureJobs = ({ fakeData }) => {
       </div>
 
       <div className="btn-container mt-7 flex justify-center">
-        <button className="btn" onClick={handleJobs}>
+        {state ? (
+          <button className="btn" onClick={handleJobs}>
+            Show Less
+          </button>
+        ) : (
+          <button className="btn" onClick={handleJobs}>
+            Show More
+          </button>
+        )}
+        {/* <button className="btn" onClick={handleJobs}>
           {state ? "Show Less" : "Show All Jobs"}
-        </button>
+        </button> */}
       </div>
     </div>
   );

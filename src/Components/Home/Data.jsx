@@ -1,5 +1,5 @@
 import React from "react";
-import { BeakerIcon, MapPinIcon } from "@heroicons/react/24/solid";
+import { BeakerIcon, MapPinIcon, ShareIcon } from "@heroicons/react/24/solid";
 
 const Data = ({ data, handleViewDetails }) => {
   const {
@@ -11,6 +11,7 @@ const Data = ({ data, handleViewDetails }) => {
     job_type,
     job_location,
     location,
+    salary,
   } = data;
   // console.log(data);
   return (
@@ -27,10 +28,16 @@ const Data = ({ data, handleViewDetails }) => {
         </span>
       </div>
       <div className="mb-2 flex">
-        <MapPinIcon className="h-4 w-4 mr-2 text-gray-400 flex items-center justify-center" />
-        <p className="text-gray-400">{location}</p>
+        <span className="flex mr-5">
+          <MapPinIcon className="h-4 w-4 mr-2 text-gray-400 flex items-center justify-center" />
+          <p className="text-gray-400">{location}</p>
+        </span>
+        <span className="flex">
+          <ShareIcon className="h-4 w-4 mr-2 text-gray-400 flex items-center justify-center" />
+          <p className="text-gray-400">Salary:{salary}</p>
+        </span>
       </div>
-      <button onClick={handleViewDetails} className="btn">
+      <button onClick={() => handleViewDetails(id)} className="btn">
         View Details
       </button>
     </div>

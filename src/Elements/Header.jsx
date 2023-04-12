@@ -13,7 +13,7 @@ const Header = () => {
     <div
       className={`md:flex block items-center justify-between ${
         state ? "h-64" : "h-20"
-      } md:h-20  md:mx-52 mx-3 relative`}
+      } md:h-20  md:mx-40 mx-3 relative`}
     >
       <Link
         to=" "

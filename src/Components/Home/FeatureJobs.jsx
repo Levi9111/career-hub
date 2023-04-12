@@ -13,7 +13,7 @@ const FeatureJobs = ({ fakeData }) => {
   };
 
   return (
-    <div className="md:mx-52 mx:12 my-28 ">
+    <div className="md:mx-40 mx:12 my-28 ">
       <h2 className="text-3xl font-bold text-center">Featured Jobs</h2>
       <p className="text-lg text-gray-700 text-center mb-3">
         Explore thousands of job opportunities with all the information you

@@ -5,7 +5,7 @@ import Logo from "./../assets/Icons/Group 9969.png";
 const Footer = () => {
   return (
     <div className="bg-black min-h-[400px] flex flex-col justify-center p-3">
-      <div className="footer-border text-white md:mx-52 mx-3 flex md:items-start items-center justify-between flex-wrap">
+      <div className="footer-border text-white md:mx-40 mx-3 flex md:items-start items-center justify-between flex-wrap">
         <div className="w-[200px]">
           <h3 className="text-3xl font-semibold mb-4">workWithLevi</h3>
           <p>
@@ -90,7 +90,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="text-gray-600 md:mx-52 mx-3 flex justify-between pt-4">
+      <div className="text-gray-600 md:mx-40 mx-3 flex justify-between pt-4">
         <span>
           © {new Date().getFullYear()}, Built with
           {` `}

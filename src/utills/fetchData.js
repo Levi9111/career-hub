@@ -6,9 +6,9 @@ const fetchData = async (url) => {
 
 const getData = async () => {
   const fakeData = await fetchData("/fakeDb.json");
-  const fakeDescription = await fetchData("/fakeDbDescription.json");
-  // console.log(fakeData, fakeDescription);
-  return { fakeData, fakeDescription };
+  const fakeCategory = await fetchData("/fakeCategory.json");
+  // console.log(fakeData, fakeCategory);
+  return { fakeData, fakeCategory };
 };
 
 export { getData, fetchData };

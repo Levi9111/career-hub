@@ -6,7 +6,16 @@
     "company": "Google",
     "job_location": "Remote",
     "job_type": "Full time",
-    "location": "California"
+    "location": "California",
+    "description": "We are looking for a talented software engineer to join our team at Google. You will work on some of the most exciting and challenging projects in the tech industry, using cutting-edge technologies and tools to build innovative products that improve people's lives.",
+    "responsibilities": "Design and implement scalable software systems that meet business requirements. Collaborate with cross-functional teams to define, design, and ship new features. Write clean, maintainable, and testable code. Conduct code reviews and provide feedback to other developers. Participate in product design discussions and provide input on product features and improvements.",
+    "requirements": "Bachelor's degree in Computer Science or related field. Strong programming skills in one or more of the following languages: Java, C++, Python, or JavaScript. Experience with software development methodologies such as Agile, Scrum, or Kanban. Experience with distributed systems, cloud computing, and/or data processing technologies is a plus.",
+    "experience": "3+ years of experience in software engineering.",
+    "salary": "100000-150000",
+    "job_title": "Software Engineer",
+    "phone_number": "+1 123-456-7890",
+    "email": "jobs@google.com",
+    "full_address": "1600 Amphitheatre Parkway, Mountain View, CA 94043"
   },
   {
     "id": 2,
@@ -15,7 +24,16 @@
     "company": "Netflix",
     "job_location": "Onsite",
     "job_type": "Full time",
-    "location": "Los Gatos, California"
+    "location": "Los Gatos, California",
+    "description": "We are looking for a senior data analyst to join our data science team at Netflix. You will work on analyzing large and complex datasets to provide insights that inform business decisions and improve the customer experience.",
+    "responsibilities": "Design and conduct complex data analysis projects using statistical and machine learning techniques. Collaborate with cross-functional teams to define business questions, identify data sources, and develop analytical solutions. Communicate insights and recommendations to stakeholders using data visualization and storytelling techniques. Develop and maintain data pipelines and ETL processes.",
+    "requirements": "Bachelor's or Master's degree in Statistics, Computer Science, Mathematics, or related field. 5+ years of experience in data analysis, preferably in the entertainment or tech industry. Experience with SQL, Python, and data visualization tools such as Tableau or Power BI. Strong communication and presentation skills.",
+    "experience": "5+ years of experience in data analysis, preferably in the entertainment or tech industry.",
+    "salary": "120000-180000",
+    "job_title": "Senior Data Analyst",
+    "phone_number": "+1 123-456-7890",
+    "email": "jobs@netflix.com",
+    "full_address": "100 Winchester Cir, Los Gatos, CA 95032"
   },
   {
     "id": 3,
@@ -24,7 +42,16 @@
     "company": "Tesla",
     "job_location": "Remote",
     "job_type": "Full time",
-    "location": "California"
+    "location": "California",
+    "description": "We are looking for a product manager to join our team at Tesla. You will work on developing and launching new products that redefine the automotive industry.",
+    "responsibilities": "Lead the ideation, development, and launch of new products that align with Tesla's mission and values. Collaborate with cross-functional teams to define product requirements, develop product roadmaps, and prioritize feature development. Conduct market research and competitive analysis to identify market trends and customer needs. Develop and maintain relationships with key stakeholders and partners.",
+    "requirements": "Bachelor's or Master's degree in Business Administration, Engineering, or related field. 5+ years of experience in product management, preferably in the automotive or tech industry. Strong project management and leadership skills. Excellent communication and interpersonal skills.",
+    "experience": "5+ years of experience in data analysis, preferably in the entertainment or tech industry.",
+    "salary": "120000-180000",
+    "job_title": "Senior Data Analyst",
+    "phone_number": "+1 123-562-5590",
+    "email": "jobs@tesla.com",
+    "full_address": "100 Winchester Cir, Los Gatos, CA 95032"
   },
   {
     "id": 4,
@@ -33,7 +60,14 @@
     "company": "Airbnb",
     "job_location": "Onsite",
     "job_type": "Full time",
-    "location": "San Francisco, California"
+    "location": "San Francisco, California",
+    "job_responsibilities": "As a Frontend Software Engineer, you will work with a team of engineers to build and maintain scalable and performant web applications with React and Redux. You will collaborate with product designers and back-end engineers to deliver new features, optimize web applications for maximum speed and scalability, work with the QA team to ensure high-quality and bug-free code, and stay up-to-date with emerging trends and technologies in front-end development.",
+    "requirements": "We are looking for candidates with 3+ years of experience in front-end development and experience with React and Redux. Candidates should be proficient in HTML, CSS, and JavaScript, and have experience with front-end build tools such as Webpack. Strong understanding of web performance and optimization techniques is required. Experience with Git and version control is also preferred.",
+    "experience": "3+ years of experience in front-end development",
+    "salary": "$120,000 - $160,000",
+    "phone": "+1-555-555-5555",
+    "email": "jobs@airbnb.com",
+    "full_address": "888 Brannan St, San Francisco, CA 94103"
   },
   {
     "id": 5,
@@ -42,7 +76,15 @@
     "company": "Amazon",
     "job_location": "Remote",
     "job_type": "Full time",
-    "location": "Seattle, Washington"
+    "location": "Seattle, Washington",
+    "job_description": "Software Development Engineer",
+    "job_responsibilities": "As a Software Development Engineer at Amazon, you will be responsible for designing and developing large-scale, distributed software systems and services. You will work with a team of engineers to build and deliver high-quality, scalable, and reliable software solutions that meet customer needs. You will also collaborate with other teams across the company to deliver end-to-end solutions, and be involved in all phases of the software development lifecycle.",
+    "requirements": "We are looking for candidates with a Bachelor's degree or higher in Computer Science, Computer Engineering, or related field, and 3+ years of professional software development experience. Candidates should have experience in Java or C++ development, and familiarity with object-oriented design and design patterns. Strong problem-solving skills and ability to debug and troubleshoot complex software systems is required. Experience with Agile development methodologies is preferred.",
+    "experience": "3+ years of professional software development experience",
+    "salary": "$120,000 - $180,000",
+    "phone": "+1-555-555-5555",
+    "email": "jobs@amazon.com",
+    "full_address": "410 Terry Ave N, Seattle, WA 98109"
   },
   {
     "id": 6,
@@ -51,6 +93,14 @@
     "company": "Twitter",
     "job_location": "Onsite",
     "job_type": "Full time",
-    "location": "San Francisco, California"
+    "location": "San Francisco, California",
+    "job_description": "Software Engineer",
+    "job_responsibilities": "As a Software Engineer at Twitter, you will be responsible for designing and building scalable, reliable, and high-performance software systems that power Twitter's platform. You will work on a range of projects across the company, from developing new features and services to improving existing ones. You will also collaborate with other teams to ensure that the systems you build are integrated seamlessly into the larger Twitter ecosystem.",
+    "requirements": "We are looking for candidates with a Bachelor's degree or higher in Computer Science or a related field, and 2+ years of professional software development experience. Candidates should have experience with one or more of the following: Java, Scala, Python, Ruby, or C++. Experience with distributed systems, cloud infrastructure, and/or large-scale data processing is preferred. Strong problem-solving skills and ability to debug and troubleshoot complex software systems is required. Experience with Agile development methodologies is also preferred.",
+    "experience": "2+ years of professional software development experience",
+    "salary": "$110,000 - $150,000",
+    "phone": "+1-555-555-5555",
+    "email": "jobs@twitter.com",
+    "full_address": "1355 Market St #900, San Francisco, CA 94103"
   }
 ]

@@ -1,5 +1,6 @@
 import React from "react";
-import { BeakerIcon, MapPinIcon, ShareIcon } from "@heroicons/react/24/solid";
+import { MapPinIcon, ShareIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const Data = ({ data, handleViewDetails }) => {
   const {
@@ -37,9 +38,11 @@ const Data = ({ data, handleViewDetails }) => {
           <p className="text-gray-400">Salary:{salary}</p>
         </span>
       </div>
-      <button onClick={() => handleViewDetails(id)} className="btn">
-        View Details
-      </button>
+      <Link to={`/job/${data.id}`}>
+        <button onClick={() => handleViewDetails(id)} className="btn">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };

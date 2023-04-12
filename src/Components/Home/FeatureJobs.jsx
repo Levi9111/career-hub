@@ -6,7 +6,6 @@ const FeatureJobs = ({ fakeData }) => {
 
   const handleViewDetails = (id) => {
     const targetElement = fakeData.find((data) => data.id === id);
-    console.log(targetElement);
   };
 
   const handleJobs = () => {
@@ -41,7 +40,7 @@ const FeatureJobs = ({ fakeData }) => {
           </button>
         ) : (
           <button className="btn" onClick={handleJobs}>
-            Show More
+            Show All Jobs
           </button>
         )}
         {/* <button className="btn" onClick={handleJobs}>

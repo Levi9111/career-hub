@@ -2,7 +2,7 @@
   "jobs": [
     {
       "id": 1,
-      "image": "./../src/assets/Logo/google-1-1 1-1.png",
+      "image": "https://i.ibb.co/z8gCMJN/google-1-1-1.png",
       "job_post": "Software Engineer",
       "company": "Google",
       "job_location": "Remote",
@@ -20,7 +20,7 @@
     },
     {
       "id": 2,
-      "image": "./../src/assets/Logo/netflix-4 1.png",
+      "image": "https://i.ibb.co/qjhHkR9/netflix-4-1.png",
       "job_post": "Senior Data Analyst",
       "company": "Netflix",
       "job_location": "Onsite",
@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "image": "./../src/assets/Logo/tesla-9 1.png",
+      "image": "https://i.ibb.co/pn91jV4/tesla-9-1.png",
       "job_post": "Product Manager",
       "company": "Tesla",
       "job_location": "Remote",
@@ -56,7 +56,7 @@
     },
     {
       "id": 4,
-      "image": "./../src/assets/Logo/airbnb.png",
+      "image": "https://i.ibb.co/CmKv1s5/Group-10021.png",
       "job_post": "User Experience Designer",
       "company": "Airbnb",
       "job_location": "Onsite",
@@ -72,7 +72,7 @@
     },
     {
       "id": 5,
-      "image": "./../src/assets/Logo/amazon.png",
+      "image": "https://i.ibb.co/x7Xb2Vr/amazon.png",
       "job_post": "Data Scientist",
       "company": "Amazon",
       "job_location": "Remote",
@@ -89,7 +89,7 @@
     },
     {
       "id": 6,
-      "image": "./../src/assets/Logo/twitter.png",
+      "image": "https://i.ibb.co/0FW6jK0/twitter.png",
       "job_post": "Social Media Manager",
       "company": "Twitter",
       "job_location": "Onsite",

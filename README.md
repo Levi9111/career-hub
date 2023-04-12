@@ -1,6 +1,6 @@
-\*## Welcome to the [workWithLevi]() responsive web site.
+\*## Welcome to the [workWithLevi](gorgeous-smoke.surge.sh) responsive web site.
 
-# Live Preview [ ]()
+# Live Preview [gorgeous-smoke.surge.sh](gorgeous-smoke.surge.sh)
 
 ### Features of this web site
 
